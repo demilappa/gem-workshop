@@ -5588,7 +5588,6 @@ HMR_9685		m4353  <=> m2226 		1	-1000.00	1000.00	  0.00
 HMR_9692		m4428  <=> m3824 		1	-1000.00	1000.00	  0.00
 HMR_9715		m4429  <=> m3830 		1	-1000.00	1000.00	  0.00
 HMR_9730		m4207  <=> m1649 		1	-1000.00	1000.00	  0.00
-HMR_9736		m4451  <=> m1840 		1	-1000.00	1000.00	  0.00
 Metabolite name	Metabolite description	Metabolite formula
 m1	(10Z)-heptadecenoic acid	C17H32O2
 m2	(10Z)-heptadecenoic acid	C17H32O2
