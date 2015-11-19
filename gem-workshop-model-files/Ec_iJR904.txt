@@ -1073,7 +1073,6 @@ XYLI1	xylose isomerase	xyl-D[c]  <=> xylu-D[c] 	(b3565)	1	-1000.00	1000.00	  0.0
 XYLI2i	xylose isomerase	fru[c]  => glc-D[c] 	(b3565)	0	  0.00	1000.00	  0.00
 XYLK	xylulokinase	atp[c] + xylu-D[c]  => adp[c] + h[c] + xu5p-D[c] 	(b3564)	0	  0.00	1000.00	  0.00
 XYLabc	D-xylose transport via ABC system	atp[c] + h2o[c] + xyl-D[e]  => adp[c] + h[c] + pi[c] + xyl-D[c] 	(b3568) and (b3566) and (b3567)	0	  0.00	1000.00	  0.00
-XYLt2	D-xylose transport in via proton symport	h[e] + xyl-D[e]  => h[c] + xyl-D[c] 	(b4031)	0	  0.00	1000.00	  0.00
 Metabolite name	Metabolite description	Metabolite formula
 10fthf[c]	10-Formyltetrahydrofolate	C20H21N7O7
 12dgr_EC[c]	1,2-Diacylglycerol  (E.coli)	C1836H3448O250
