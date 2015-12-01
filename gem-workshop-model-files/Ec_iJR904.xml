@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
-  <model id="Ec_iJR904_xml">
+  <model id="Ec_iJR904">
     <listOfUnitDefinitions>
       <unitDefinition id="mmol_per_gDW_per_hr">
         <listOfUnits>
@@ -39382,40 +39382,6 @@ JLR- EC 3.6.1.45</p>
           <speciesReference species="M_adp_c" stoichiometry="1"/>
           <speciesReference species="M_h_c" stoichiometry="1"/>
           <speciesReference species="M_xu5p_DASH_D_c" stoichiometry="1"/>
-        </listOfProducts>
-        <kineticLaw>
-          <math xmlns="http://www.w3.org/1998/Math/MathML">
-            <ci> FLUX_VALUE </ci>
-          </math>
-          <listOfParameters>
-            <parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr" constant="false"/>
-            <parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr" constant="false"/>
-            <parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr" constant="false"/>
-            <parameter id="OBJECTIVE_COEFFICIENT" value="0" units="mmol_per_gDW_per_hr" constant="false"/>
-          </listOfParameters>
-        </kineticLaw>
-      </reaction>
-      <reaction id="R_XYLabc" name="D-xylose transport via ABC system" reversible="false">
-        <notes>
-          <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (b3568) and (b3566) and (b3567)</p>
-            <p>SUBSYSTEM: Transport, Extracellular</p>
-            <p>EC Number: </p>
-            <p>Confidence Level: 0</p>
-            <p>AUTHORS: </p>
-            <p>LOCUS:b3566#ABBREVIATION:xylF#</p>
-          </body>
-        </notes>
-        <listOfReactants>
-          <speciesReference species="M_atp_c" stoichiometry="1"/>
-          <speciesReference species="M_h2o_c" stoichiometry="1"/>
-          <speciesReference species="M_xyl_DASH_D_e" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference species="M_adp_c" stoichiometry="1"/>
-          <speciesReference species="M_h_c" stoichiometry="1"/>
-          <speciesReference species="M_pi_c" stoichiometry="1"/>
-          <speciesReference species="M_xyl_DASH_D_c" stoichiometry="1"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
