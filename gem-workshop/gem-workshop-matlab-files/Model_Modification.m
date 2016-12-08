@@ -16,6 +16,7 @@ function [ New_Cobra_SBML_Model ] = Model_Modification( filename )
     model=readCbModel(filename);        % Promt opens and User chooses the file to be read
     model=removeRxns(model, model.rxns{1075,1})
     writeCbModel(model, 'sbml', filename) ;
+    writeCbModel(model, 'txt', 'Ec_iJR904.txt');
 
 end
 
